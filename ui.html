@@ -1,0 +1,17 @@
+<h2>JE SUIS LE GENIE DE LA ROTATION DES RECTANGLE</h2>
+<p>Degree: <input id="degree" value="5"></p>
+<button style="background: red;" id="create">Create</button>
+<button id="cancel">Cancel</button>
+<script>
+
+document.getElementById('create').onclick = () => {
+  const textbox = document.getElementById('degree');
+  const degree = parseInt(textbox.value, 10);
+  parent.postMessage({ pluginMessage: { type: 'create-rectangles', degree } }, '*')
+}
+
+document.getElementById('cancel').onclick = () => {
+  parent.postMessage({ pluginMessage: { type: 'cancel' } }, '*')
+}
+
+</script>
