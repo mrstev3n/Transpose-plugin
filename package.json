@@ -1,0 +1,30 @@
+{
+  "name": "transpose",
+  "version": "1.0.0",
+  "description": "(flip layer size, Tranpose)",
+  "main": "code.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrstev3n/Transpose.git"
+  },
+  "keywords": [
+    "transpose",
+    "flip",
+    "flipsize",
+    "change",
+    "rotate",
+    "landscape",
+    "portrait"
+  ],
+  "author": " (Steven H-A)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrstev3n/Transpose/issues"
+  },
+  "homepage": "https://github.com/mrstev3n/Transpose#readme"
+}

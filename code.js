@@ -11,9 +11,9 @@
 
     }
 
-    if (!(selection.length > 0)) {
+    // Flip W & H
 
-        // figma.notify('Please select at least one node');
+    if (!(selection.length > 0)) {
 
         figma.closePlugin('Please select at least one node');
 
@@ -23,7 +23,7 @@
 
         nodes.push(SelectionSize());
 
-        // Flip W & H
+        
 
         /*
             const width = form.width;
