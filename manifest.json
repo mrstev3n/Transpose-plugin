@@ -1,7 +1,6 @@
 {
-  "name": "nrm",
+  "name": "Transpose",
   "id": "1008797154569926590",
   "api": "1.0.0",
-  "main": "code.js",
-  "ui": "ui.html"
+  "main": "code.js"
 }
