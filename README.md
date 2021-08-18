@@ -1,24 +1,43 @@
-Below are the steps to get your plugin running. You can also find instructions at:
 
-  https://www.figma.com/plugin-docs/setup/
+Figma plugin: Transpose
+=================
 
-This plugin template uses NPM, a standard tool in creating JavaScript applications.
+A simple figma plugin to flip any layers size.
 
-First, download Node.js which comes with NPM. 
+![](https://github.com/mrstev3n/transpose/assets/profile_banner.png)
 
-You can find the download link here:
+## Usage
 
-  https://nodejs.org/en/download/
+Select One (1) or more layers and run the plugin.
+
+![](https://github.com/mrstev3n/transpose/assets/banner.gif)
+
+ProTip : Use a custom keyboard to lauch the plugin
+
+## Development
+
+Install the packages
+```
+npm i
+```
+
+Run the plugin in dev mode
+```
+npx webpack --mode=development --watch
+```
 
 
-Finally, in the directory of your plugin, get the latest type definitions for the plugin API by running:
+Build for production
+```
+npx webpack --mode=production
+```
 
-  npm install --save-dev @figma/plugin-typings
 
+Plugin URL : https://www.figma.com/community/plugin/1009022712992810988
 
-We recommend writing using Visual Studio code:
+## License
 
-1. Download Visual Studio Code if you haven't already: https://code.visualstudio.com/.
-2. Open this directory in Visual Studio Code.
+© 2021 Steven Houessou-adin
 
-That's it! 
+MIT License
+
