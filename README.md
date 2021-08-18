@@ -4,13 +4,13 @@ Figma plugin: Transpose
 
 A simple figma plugin to flip any layers size.
 
-![](https://github.com/mrstev3n/transpose/assets/profile_banner.png)
+![](https://github.com/mrstev3n/Transpose-plugin/assets/profile_banner.png)
 
 ## Usage
 
 Select One (1) or more layers and run the plugin.
 
-![](https://github.com/mrstev3n/transpose/assets/banner.gif)
+![](https://github.com/mrstev3n/Transpose-plugin/assets/banner.gif)
 
 ProTip : Use a custom keyboard to lauch the plugin
 
