@@ -1,10 +1,17 @@
+<div align="center">
+  <img alt="Transpose" src="https://github.com/mrstev3n/Transpose-plugin/blob/master/assets/transpose.png" height="184px" />
+</div>
 
-Figma plugin: Transpose
-=================
+<div align="center">
+  A simple figma plugin to flip any layers size.
+</div>
 
-A simple figma plugin to flip any layers size.
+## Installation
 
-![](https://github.com/mrstev3n/Transpose-plugin/blob/master/assets/profile_banner.png)
+Install the plugin and show some love, directly from the Figma Community
+
+<a href="https://www.figma.com/community/plugin/1009022712992810988/Transpose"><img alt="Install Plugin" src="https://img.shields.io/endpoint?url=https://figma-plugin-badges.vercel.app/api/installs/1009022712992810988"/></a>
+
 
 ## Usage
 
@@ -13,6 +20,11 @@ Select One (1) or more layers and run the plugin.
 ![](https://github.com/mrstev3n/Transpose-plugin/blob/master/assets/banner.gif)
 
 ProTip : Use a custom keyboard to lauch the plugin
+
+## Contributing
+
+Contributions are welcomed,[![GitHub pull-requests](https://img.shields.io/github/issues-pr/Naereen/StrapDown.js.svg)](https://GitHub.com/mrstev3n/Transpose-plugin/pull/) or
+[![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://GitHub.com/mrstev3n/Transpose-plugin/issues/)
 
 ## Development
 
@@ -32,12 +44,9 @@ Build for production
 npx webpack --mode=production
 ```
 
-
-Plugin URL : https://www.figma.com/community/plugin/1009022712992810988
-
 ## License
 
 © 2021 Steven Houessou-adin
 
-MIT License
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
