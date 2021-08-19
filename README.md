@@ -12,14 +12,13 @@ Install the plugin and show some love, directly from the Figma Community
 
 <a href="https://www.figma.com/community/plugin/1009022712992810988/Transpose"><img alt="Install Plugin" src="https://img.shields.io/endpoint?url=https://figma-plugin-badges.vercel.app/api/installs/1009022712992810988"/></a>
 
-
 ## Usage
 
 Select One (1) or more layers and run the plugin.
 
 ![](https://github.com/mrstev3n/Transpose-plugin/blob/master/assets/banner.gif)
 
-ProTip : Use a custom keyboard to lauch the plugin
+### ProTip : Use a custom keyboard to lauch the plugin
 
 ## Contributing
 
@@ -37,7 +36,6 @@ Run the plugin in dev mode
 ```
 npx webpack --mode=development --watch
 ```
-
 
 Build for production
 ```
