@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Transpose" src="https://github.com/mrstev3n/Transpose-plugin/blob/master/assets/transpose.png" height="184px" />
+  <img alt="Transpose" src="https://github.com/mrstev3n/Transpose-plugin/blob/master/assets/transpose.png" height="150px" />
 </div>
 
 <div align="center">
@@ -18,11 +18,13 @@ Select One (1) or more layers and run the plugin.
 
 ![](https://github.com/mrstev3n/Transpose-plugin/blob/master/assets/banner.gif)
 
-### ProTip : Use a custom keyboard to lauch the plugin
+#### ProTip : Use a custom keyboard to lauch the plugin
 
 ## Contributing
 
-Contributions are welcomed,[![GitHub pull-requests](https://img.shields.io/github/issues-pr/Naereen/StrapDown.js.svg)](https://GitHub.com/mrstev3n/Transpose-plugin/pull/) or
+Contributions are welcomed,felle fre to make a pull request or create an issue
+
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/Naereen/StrapDown.js.svg)](https://GitHub.com/mrstev3n/Transpose-plugin/pull/)
 [![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://GitHub.com/mrstev3n/Transpose-plugin/issues/)
 
 ## Development
@@ -46,5 +48,5 @@ npx webpack --mode=production
 
 © 2021 Steven Houessou-adin
 
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)]()
 
