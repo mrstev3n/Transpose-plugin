@@ -22,7 +22,7 @@ Select One (1) or more layers and run the plugin.
 
 ## Contributing
 
-Contributions are welcomed,felle fre to make a pull request or create an issue
+Contributions are welcomed, feel free to make a pull request or create an issue
 
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/Naereen/StrapDown.js.svg)](https://GitHub.com/mrstev3n/Transpose-plugin/pull/)
 [![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://GitHub.com/mrstev3n/Transpose-plugin/issues/)
