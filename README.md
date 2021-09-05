@@ -26,8 +26,8 @@ Lil typo in the GIF 😅 : Read "Width" instead of "Weight"
 
 Contributions are welcomed, feel free to make a pull request or create an issue
 
-[![GitHub pull-requests](https://img.shields.io/github/issues-pr/Naereen/StrapDown.js.svg)](https://GitHub.com/mrstev3n/Transpose-plugin/pull/)
-[![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://GitHub.com/mrstev3n/Transpose-plugin/issues/)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/mrstev3n/Transpose-plugin.svg)](https://GitHub.com/mrstev3n/Transpose-plugin/pull/)
+[![GitHub issues](https://img.shields.io/github/issues/mrstev3n/Transpose-plugin.svg)](https://GitHub.com/mrstev3n/Transpose-plugin/issues/)
 
 ## Development
 
@@ -50,5 +50,5 @@ npx webpack --mode=production
 
 © 2021 Steven Houessou-adin
 
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)]()
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/mrstev3n/Transpose-plugin/blob/master/LICENSE)
 
