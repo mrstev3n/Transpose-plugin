@@ -2,5 +2,9 @@
   "name": "Transpose",
   "id": "1009022712992810988",
   "api": "1.0.0",
-  "main": "code.js"
+  "main": "code.js",
+  "editorType": [
+    "figma",
+    "figjam"
+  ]
 }
