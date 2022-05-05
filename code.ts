@@ -2,29 +2,34 @@
     // Check if something is selected
 
     let { selection } = figma.currentPage;
-    let length = selection.length;
+    
+    let mylength = selection.length;
 
-    if (!(length > 0)) {
+    if (!(mylength > 0)) {
 
-      figma.closePlugin('Please select at least one node');
+      figma.closePlugin('Please select ato least one node');
 
     } else {
+
       
-      for(let i = 0; i < length; i++) {
+      for(let i = 0; i < mylength; i++) {
 
       let width = selection[i].width;
       let height = selection[i].height;
       let nodes = [];
 
-        // @ts-ignore
+        // @ts-expect-error
         if (!(selection[i].type === 'PAGE')) {
 
           // Flip W & H
-          // @ts-ignore
+
+          // @ts-expect-error
           if (height < 0.01 && width >= 0.01) { nodes.push(selection[i].resize(0.01, width))} else
-          // @ts-ignore
+
+          // @ts-expect-error
           if (height >= 0.01 && width < 0.01) { nodes.push(selection[i].resize(height, 0.01))} 
-          // @ts-ignore
+
+          // @ts-expect-error
           else { nodes.push(selection[i].resize(height, width))}
 
         }
