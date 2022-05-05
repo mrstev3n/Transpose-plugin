@@ -1,44 +1,105 @@
-    // Get selection on current page
-    // Check if something is selected
+   
 
-    let { selection } = figma.currentPage;
+    const selection = getFilteredSelection()
     
     let mylength = selection.length;
+    let defaults = ['Each one', 'Grouped'];
+	
+    figma.parameters.on("input", ({ query, result }: ParameterInputEvent) => {
 
-    if (!(mylength > 0)) {
+    // Check if something is selected
 
-      figma.closePlugin('Please select ato least one node');
+      if (selection.length === 0) {
+        result.setError("⚠️ Please select at least one layer beforehand")
+        return
+    }
 
-    } else {
+    // Display default options
+    // filter to allow only values matching the typed value
 
-      
+    else {
+
+      result.setSuggestions(defaults.filter((s) => s.includes(query))); 
+
+    }
+			
+});
+
+// Start the 'run' event after user input.
+
+figma.on("run", ({ parameters }: RunEvent) => {
+  const closeMessage = startPluginWithParameters(parameters)
+  figma.closePlugin(closeMessage)
+})
+
+function startPluginWithParameters(parameters: ParameterValues): string {
+  const selection = getFilteredSelection()
+
+  if (selection.length === 0) {
+      figma.notify("⚠️ Please select at least one layer beforehand.", {
+          error: true,
+      })
+      return ""
+  }
+
+  const type = parameters["type"]
+
+  switch (type) {
+		case 'Each one':
+			
       for(let i = 0; i < mylength; i++) {
 
-      let width = selection[i].width;
-      let height = selection[i].height;
-      let nodes = [];
+        let width = selection[i].width;
+        let height = selection[i].height;
+        let nodes = [];
 
-        // @ts-expect-error
-        if (!(selection[i].type === 'PAGE')) {
-
-          // Flip W & H
-
-          // @ts-expect-error
-          if (height < 0.01 && width >= 0.01) { nodes.push(selection[i].resize(0.01, width))} else
-
-          // @ts-expect-error
-          if (height >= 0.01 && width < 0.01) { nodes.push(selection[i].resize(height, 0.01))} 
-
-          // @ts-expect-error
-          else { nodes.push(selection[i].resize(height, width))}
+            // Flip each selected layers W & H
+  
+            // @ts-expect-error
+            if (height < 0.01 && width >= 0.01) { nodes.push(selection[i].resize(0.01, width))} else
+  
+            // @ts-expect-error
+            if (height >= 0.01 && width < 0.01) { nodes.push(selection[i].resize(height, 0.01))} 
+  
+            // @ts-expect-error
+            else { nodes.push(selection[i].resize(height, width))}
 
         }
+  
+			break;
 
-        figma.closePlugin('Transposition Done');
+		case 'Grouped':
 
-    }
+          // Group & Flip selected layers W & H
 
-    }
- 
+          
 
-   
+			break;
+		default:
+			return;
+	}
+
+
+  if (selection.length === 1) {
+      return "1 layer resized"
+  } else {
+      return `${selection.length} layers resized`
+  }
+
+
+}
+
+
+    function getFilteredSelection() {
+      return figma.currentPage.selection.filter(
+          (node) =>
+              (node.type === "FRAME" ||
+                node.type === "RECTANGLE" ||
+                node.type === "ELLIPSE" ||
+                node.type === "POLYGON" ||
+                node.type === "TEXT" ||
+                node.type === "SHAPE_WITH_TEXT" ||
+                node.type === "COMPONENT" ||
+                node.type === "GROUP")
+      )
+  }
