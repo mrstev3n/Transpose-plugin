@@ -1,31 +1,68 @@
-    // Get selection on current page
+   
+
+    const selection = getFilteredSelection()
+    
+    let mylength = selection.length;
+    let defaults = ['Each one', 'Grouped'];
+	
+    figma.parameters.on("input", ({ query, result }: ParameterInputEvent) => {
+
     // Check if something is selected
 
-    let { selection } = figma.currentPage;
-    let length = selection.length;
+      if (selection.length === 0) {
+        result.setError("⚠️ Please select at least one layer beforehand")
+        return
+    }
 
-    if (!(length > 0)) {
+    // Display default options
+    // filter to allow only values matching the typed value
 
-      figma.closePlugin('Please select at least one node');
+    else {
 
-    } else {
-      
-      for(let i = 0; i < length; i++) {
+      result.setSuggestions(defaults.filter((s) => s.includes(query))); 
 
-      let width = selection[i].width;
-      let height = selection[i].height;
-      let nodes = [];
+    }
+			
+});
 
-        // @ts-ignore
-        if (!(selection[i].type === 'PAGE')) {
+// Start the 'run' event after user input.
 
-          // Flip W & H
-          // @ts-ignore
-          if (height < 0.01 && width >= 0.01) { nodes.push(selection[i].resize(0.01, width))} else
-          // @ts-ignore
-          if (height >= 0.01 && width < 0.01) { nodes.push(selection[i].resize(height, 0.01))} 
-          // @ts-ignore
-          else { nodes.push(selection[i].resize(height, width))}
+figma.on("run", ({ parameters }: RunEvent) => {
+  const closeMessage = startPluginWithParameters(parameters)
+  figma.closePlugin(closeMessage)
+})
+
+function startPluginWithParameters(parameters: ParameterValues): string {
+  const selection = getFilteredSelection()
+
+  if (selection.length === 0) {
+      figma.notify("⚠️ Please select at least one layer beforehand.", {
+          error: true,
+      })
+      return ""
+  }
+
+  const type = parameters["type"]
+
+  switch (type) {
+		case 'Each one':
+			
+      for(let i = 0; i < mylength; i++) {
+
+        let width = selection[i].width;
+        let height = selection[i].height;
+        let nodes = [];
+
+            // Flip each selected layers W & H
+  
+            // @ts-expect-error
+            if (height < 0.01 && width >= 0.01) { nodes.push(selection[i].resize(0.01, width))} else
+  
+            // @ts-expect-error
+            if (height >= 0.01 && width < 0.01) { nodes.push(selection[i].resize(height, 0.01))} 
+  
+            // @ts-expect-error
+            else { nodes.push(selection[i].resize(height, width))}
 
         }
   
@@ -33,18 +70,34 @@
 
 		case 'Grouped':
 
-          // Group & Flip selected layers W & H
+          // Group & Flip selected layers W & H        
 
 			break;
 		default:
 			return;
 	}
 
-        figma.closePlugin('Transposition Done');
 
-    }
+  if (selection.length === 1) {
+      return "1 layer resized"
+  } else {
+      return `${selection.length} layers resized`
+  }
 
-    }
- 
 
-   
+}
+
+
+    function getFilteredSelection() {
+      return figma.currentPage.selection.filter(
+          (node) =>
+              (node.type === "FRAME" ||
+                node.type === "RECTANGLE" ||
+                node.type === "ELLIPSE" ||
+                node.type === "POLYGON" ||
+                node.type === "TEXT" ||
+                node.type === "SHAPE_WITH_TEXT" ||
+                node.type === "COMPONENT" ||
+                node.type === "GROUP")
+      )
+  }

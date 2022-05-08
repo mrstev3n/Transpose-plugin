@@ -9,7 +9,7 @@
     "npm": "^8.9.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -p tsconfig.json"
   },
   "repository": {
     "type": "git",
@@ -29,5 +29,9 @@
   "bugs": {
     "url": "https://github.com/mrstev3n/Transpose/issues"
   },
-  "homepage": "https://github.com/mrstev3n/Transpose#readme"
+  "homepage": "https://github.com/mrstev3n/Transpose#readme",
+  "dependencies": {
+    "source-map-loader": "^3.0.1",
+    "ts-loader": "^9.3.0"
+  }
 }
