@@ -28,6 +28,17 @@
           else { nodes.push(selection[i].resize(height, width))}
 
         }
+  
+			break;
+
+		case 'Grouped':
+
+          // Group & Flip selected layers W & H
+
+			break;
+		default:
+			return;
+	}
 
         figma.closePlugin('Transposition Done');
 

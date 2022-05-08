@@ -8,11 +8,13 @@
 
 ## Installation
 
-Install the plugin and show some love, directly from the Figma Community
+Click bellow to directly install from figma community
 
 <a href="https://www.figma.com/community/plugin/1009022712992810988/Transpose"><img alt="Install Plugin" src="https://img.shields.io/endpoint?url=https://figma-plugin-badges.vercel.app/api/installs/1009022712992810988"/></a>
 
-## Usage
+# Usage
+
+## Transpose > Each one
 
 Select One (1) or more layers and run the plugin.
 
@@ -20,31 +22,37 @@ Select One (1) or more layers and run the plugin.
 
 Lil typo in the GIF 😅 : Read "Width" instead of "Weight" and "Transposition Done" instead of "Transpisition Done"
 
-#### ProTip : Use a custom keyboard to lauch the plugin
+## Transpose > Grouped
 
-## Contributing
+** ** **
+
+# Supported Object
+
+- Text
+- Group
+- Frame
+- Component
+- Instance
+
+## Code
+
+### Quick Setup
+
+- Clone the repository.
+- `npm install` installs all the dependencies.
+- `npm build` builds and bundles the plugin.
+- Import manifest into Figma and test.
+
+### Contribution
 
 Contributions are welcomed, feel free to make a pull request or create an issue
 
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/mrstev3n/Transpose-plugin.svg)](https://GitHub.com/mrstev3n/Transpose-plugin/pull/)
 [![GitHub issues](https://img.shields.io/github/issues/mrstev3n/Transpose-plugin.svg)](https://GitHub.com/mrstev3n/Transpose-plugin/issues/)
 
-## Development
+## More Links
 
-Install the packages
-```
-npm i
-```
 
-Run the plugin in dev mode
-```
-npx webpack --mode=development --watch
-```
-
-Build for production
-```
-npx webpack --mode=production
-```
 
 ## License
 
