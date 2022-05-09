@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Transpose" src="https://github.com/mrstev3n/Transpose-plugin/blob/master/assets/transpose.png" height="150px" />
+  <img alt="Transpose" src="assets/transpose.png" height="150px" />
 </div>
 
 <div align="center">
@@ -8,32 +8,49 @@
 
 <div align="center">
 
+</br>
+
 ![GitHub last commit](https://img.shields.io/github/last-commit/mrstev3n/Transpose-plugin?color=blue&style=plastic)
-![test](https://img.shields.io/github/repo-size/mrstev3n/Transpose-plugin?color=orange&style=plastic)
+![Repo size](https://img.shields.io/github/repo-size/mrstev3n/Transpose-plugin?color=orange&style=plastic)
 
 </div>
 
-## Installation
+</br>
 
-Click bellow to directly install from figma community
+# Installation
 
-<a href="https://www.figma.com/community/plugin/1009022712992810988/Transpose"><img alt="Install Plugin" src="https://img.shields.io/endpoint?url=https://figma-plugin-badges.vercel.app/api/installs/1009022712992810988"/></a>
+Click bellow to direct install from figma community
+
+<a href="https://www.figma.com/community/plugin/1009022712992810988/Transpose"><img alt="Install Plugin" src="https://img.shields.io/endpoint?url=https://figma-plugin-badges.vercel.app/api/installs/1009022712992810988" height=24/></a>
+
+</br>
 
 # Usage
 
-## Transpose > Each one
+### 1. Transpose > Each one
 
 Select One (1) or more layers and run the plugin.
 
-![](https://github.com/mrstev3n/Transpose-plugin/blob/master/assets/banner.gif)
+![](assets/banner.gif)
 
-Lil typo in the GIF 😅 : Read "Width" instead of "Weight" and "Transposition Done" instead of "Transpisition Done"
+</br>
 
-## Transpose > Grouped
+### 2. Transpose > Grouped
 
-Text Text Text Text Text Text 
-- Text Text Text Text Text Text
+Text Text Text Text Text Text </br> 
+Text Text Text Text Text Text
 
+</br>
+
+> ### Tips : Launch plugins actions with custom keyboard
+> For **Mac users** it is possible to associate natively a
+> keyboard shortcut to your figma plugin from settings
+> -learn more in this [youtube videos]() or use
+> [this method]() for **Windows users**.
+
+
+
+</br>
 
 # Object handled
 
@@ -46,14 +63,17 @@ Text Text Text Text Text Text
 - FRAME
 - COMPONENT/ INSTANCE
 
-## Support
+</br>
 
-Click bellow to directly install from figma community
-If you find this plugin useful, please consider to make a donation to support 🙏🏼
+# Support
+
+Do you find this plugin useful ? </br> please consider to make a donation to support 🙏🏼
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/mrstev3n)
 
-## Code
+</br>
+
+# Code
 
 ### Quick Setup
 
@@ -62,6 +82,8 @@ If you find this plugin useful, please consider to make a donation to support �
 - `npm build` builds and bundles the plugin.
 - Import manifest into Figma and test.
 
+</br>
+
 ### Contribution
 
 Contributions are welcomed, feel free to make a pull request or create an issue
@@ -69,28 +91,31 @@ Contributions are welcomed, feel free to make a pull request or create an issue
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/mrstev3n/Transpose-plugin.svg)](https://GitHub.com/mrstev3n/Transpose-plugin/pull/)
 [![GitHub issues](https://img.shields.io/github/issues/mrstev3n/Transpose-plugin.svg)](https://GitHub.com/mrstev3n/Transpose-plugin/issues/)
 
-## Credits and Thanks
+</br>
 
-V1 - Maker : [@mrstev3n](https://github.com/mrstev3n)
+# Credits and Thanks
 
- - Run-once plugin with simple flip action
- 
 V2 - Maker : [@mrstev3n](https://github.com/mrstev3n),
 V2 - Tester : [@rickfaf](https://github.com/rickfaf)
 
 - Plugin with parameters : Transpose, each one | grouped
 
-Big thanks to [@boussarilatif](https://github.com/boussarilatif) & [@rickfaf](https://github.com/rickfaf) for their support, testing and code snippets useful for the proper functioning of the plugin.
+V1 - Maker : [@mrstev3n](https://github.com/mrstev3n)
 
-## More Links
+ - Run-once plugin with simple flip action
 
-- [figma comunity profil - @steven](https://figma.com/@steven)
+
+Big thanks to [@boussarilatif](https://github.com/boussarilatif) & [@rickfaf](https://github.com/rickfaf) for support, testing and code snippets useful for the proper functioning of the plugin.
+
+</br>
+
+# Useful Links
 
 <p>
-<a href="https://twitter.com/USER"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" height=24></a> 
-<a href="https://medium.com/USER"><img src="https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white" height=24></a> 
-<a href="https://YouTube.com/USER"><img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" height=24></a>
-
+<a href="https://figma.com/@steven"><img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" height=24></a>
+<a href="https://twitter.com/mrstev3n"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" height=24></a> 
+</p>
+</br>
 
 ## License
 
