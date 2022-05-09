@@ -15,15 +15,11 @@
 
 </div>
 
-</br>
-
 # Installation
 
 Click bellow to direct install from figma community
 
 <a href="https://www.figma.com/community/plugin/1009022712992810988/Transpose"><img alt="Install Plugin" src="https://img.shields.io/endpoint?url=https://figma-plugin-badges.vercel.app/api/installs/1009022712992810988" height=24/></a>
-
-</br>
 
 # Usage
 
@@ -49,9 +45,6 @@ Text Text Text Text Text Text
 > [this method]() for **Windows users**.
 
 
-
-</br>
-
 # Object handled
 
 - RECTANGLE
@@ -63,15 +56,11 @@ Text Text Text Text Text Text
 - FRAME
 - COMPONENT/ INSTANCE
 
-</br>
-
 # Support
 
 Do you find this plugin useful ? </br> please consider to make a donation to support 🙏🏼
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/mrstev3n)
-
-</br>
 
 # Code
 
@@ -91,7 +80,6 @@ Contributions are welcomed, feel free to make a pull request or create an issue
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/mrstev3n/Transpose-plugin.svg)](https://GitHub.com/mrstev3n/Transpose-plugin/pull/)
 [![GitHub issues](https://img.shields.io/github/issues/mrstev3n/Transpose-plugin.svg)](https://GitHub.com/mrstev3n/Transpose-plugin/issues/)
 
-</br>
 
 # Credits and Thanks
 
@@ -107,15 +95,12 @@ V1 - Maker : [@mrstev3n](https://github.com/mrstev3n)
 
 Big thanks to [@boussarilatif](https://github.com/boussarilatif) & [@rickfaf](https://github.com/rickfaf) for support, testing and code snippets useful for the proper functioning of the plugin.
 
-</br>
-
 # Useful Links
 
 <p>
 <a href="https://figma.com/@steven"><img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" height=24></a>
 <a href="https://twitter.com/mrstev3n"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" height=24></a> 
 </p>
-</br>
 
 ## License
 
