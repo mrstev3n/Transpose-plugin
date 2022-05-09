@@ -71,8 +71,6 @@ Do you find this plugin useful ? </br> please consider to make a donation to sup
 - `npm build` builds and bundles the plugin.
 - Import manifest into Figma and test.
 
-</br>
-
 ### Contribution
 
 Contributions are welcomed, feel free to make a pull request or create an issue
@@ -95,7 +93,9 @@ V1 - Maker : [@mrstev3n](https://github.com/mrstev3n)
 
 Big thanks to [@boussarilatif](https://github.com/boussarilatif) & [@rickfaf](https://github.com/rickfaf) for support, testing and code snippets useful for the proper functioning of the plugin.
 
-# Useful Links
+</br>
+
+# Other Links
 
 <p>
 <a href="https://figma.com/@steven"><img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" height=24></a>
