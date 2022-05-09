@@ -5,14 +5,5 @@
   "main": "code.js",
   "editorType": [
     "figma",
-    "figjam" ],
-    "parameterOnly": true,
-  "parameters": [
-    {
-      "name": "Type",
-      "key": "type",
-      "description": "Chose a type of transpose",
-      "allowFreeform": false
-    }
-  ]
+    "figjam" ]
 }
