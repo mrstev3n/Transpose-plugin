@@ -41,7 +41,7 @@ Text Text Text Text Text Text
 > ### Tips : Launch plugins actions with custom keyboard
 > For **Mac users** it is possible to associate natively a
 > keyboard shortcut to your figma plugin from settings
-> -learn more in this [youtube videos]() or use
+> -learn more in this [youtube videos](https://www.youtube.com/watch?v=r-6q1AJNeTQ) or use
 > [this method]() for **Windows users**.
 
 
@@ -91,7 +91,7 @@ V1 - Maker : [@mrstev3n](https://github.com/mrstev3n)
  - Run-once plugin with simple flip action
 
 
-Big thanks to [@boussarilatif](https://github.com/boussarilatif) & [@rickfaf](https://github.com/rickfaf) for support, testing and code snippets useful for the proper functioning of the plugin.
+Big thanks to [@boussarilatif](https://github.com/boussarilatif) & [@rickfaf](https://github.com/rickfaf) for support, testing and code snippets </br> useful for the proper functioning of the plugin.
 
 </br>
 
