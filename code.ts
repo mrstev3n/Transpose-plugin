@@ -72,8 +72,6 @@ function startPluginWithParameters(parameters: ParameterValues): string {
 
           // Group & Flip selected layers W & H
 
-          
-
 			break;
 		default:
 			return;
@@ -99,7 +97,6 @@ function startPluginWithParameters(parameters: ParameterValues): string {
                 node.type === "POLYGON" ||
                 node.type === "TEXT" ||
                 node.type === "SHAPE_WITH_TEXT" ||
-                node.type === "COMPONENT" ||
                 node.type === "GROUP")
       )
   }
