@@ -1,6 +1,4 @@
-<div align="center">
-  <img alt="Transpose" src="assets/transpose.png" height="150px" />
-</div>
+<h1 align="center"><img alt="Transpose" src="assets/transpose.png" height="150px"/></h1>
 
 <div align="center">
   A simple figma plugin to flip any layers size.
@@ -23,27 +21,27 @@ Click bellow to direct install from figma community
 
 # Usage
 
-### 1. Transpose > Each one
+## 1. Transpose > Each one
 
 Select One (1) or more layers and run the plugin.
 
-![](assets/banner.gif)
+!["Layer flip"](assets/banner.gif)
 
 </br>
 
-### 2. Transpose > Grouped
+## 2. Transpose > Grouped
 
-Text Text Text Text Text Text </br> 
+Text Text Text Text Text Text </br>
 Text Text Text Text Text Text
 
 </br>
 
-> ### Tips : Launch plugins actions with custom keyboard
+> ## Tips : Launch plugins actions with custom keyboard
+>
 > For **Mac users** it is possible to associate natively a
 > keyboard shortcut to your figma plugin from settings
 > -learn more in this [youtube videos](https://www.youtube.com/watch?v=r-6q1AJNeTQ) or use
 > [this method]() for **Windows users**.
-
 
 # Object handled
 
@@ -60,11 +58,14 @@ Text Text Text Text Text Text
 
 Do you find this plugin useful ? </br> please consider to make a donation to support 🙏🏼
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/mrstev3n)
+<p>
+<a href="https://www.buymeacoffee.com/mrstev3n"><img alt="Buy Me A Coffee" src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" height=32></a>
+<a href="https://liberapay.com/mrstev3n/"><img alt="Liberapay" src="https://img.shields.io/badge/Liberapay-F6C915?style=flat&logo=liberapay&logoColor=black" height=32></a>
+</p>
 
 # Code
 
-### Quick Setup
+## Quick Setup
 
 - Clone the repository.
 - `npm install` installs all the dependencies.
@@ -78,7 +79,6 @@ Contributions are welcomed, feel free to make a pull request or create an issue
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/mrstev3n/Transpose-plugin.svg)](https://GitHub.com/mrstev3n/Transpose-plugin/pull/)
 [![GitHub issues](https://img.shields.io/github/issues/mrstev3n/Transpose-plugin.svg)](https://GitHub.com/mrstev3n/Transpose-plugin/issues/)
 
-
 # Credits and Thanks
 
 V2 - Maker : [@mrstev3n](https://github.com/mrstev3n),
@@ -88,8 +88,7 @@ V2 - Tester : [@rickfaf](https://github.com/rickfaf)
 
 V1 - Maker : [@mrstev3n](https://github.com/mrstev3n)
 
- - Run-once plugin with simple flip action
-
+- Run-once plugin with simple flip action
 
 Big thanks to [@boussarilatif](https://github.com/boussarilatif) & [@rickfaf](https://github.com/rickfaf) for support, testing and code snippets </br> useful for the proper functioning of the plugin.
 
@@ -99,7 +98,7 @@ Big thanks to [@boussarilatif](https://github.com/boussarilatif) & [@rickfaf](ht
 
 <p>
 <a href="https://figma.com/@steven"><img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" height=24></a>
-<a href="https://twitter.com/mrstev3n"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" height=24></a> 
+<a href="https://twitter.com/mrstev3n"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" height=24></a>
 </p>
 
 ## License
@@ -107,4 +106,3 @@ Big thanks to [@boussarilatif](https://github.com/boussarilatif) & [@rickfaf](ht
 © 2021 Steven Houessou-adin
 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/mrstev3n/Transpose-plugin/blob/master/LICENSE)
-
