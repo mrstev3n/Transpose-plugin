@@ -27,9 +27,9 @@ Select One (1) or more layers and run the plugin.
 
 ![](assets/banner.gif)
 
-```
+
 Lil typo in the GIF 😅 : Read "Width" instead of "Weight" and "Transposition Done" instead of "Transpisition Done"
-```
+
 
 > ### ProTip : Use a custom keyboard to lauch the plugin
 
