@@ -41,7 +41,7 @@ Text Text Text Text Text Text
 > For **Mac users** it is possible to associate natively a
 > keyboard shortcut to your figma plugin from settings
 > -learn more in this [youtube videos](https://www.youtube.com/watch?v=r-6q1AJNeTQ) or use
-> [this method]() for **Windows users**.
+> [this method](https://www.youtube.com/watch?v=hkbTDbXc5Ng) for **Windows users**.
 
 # Object handled
 
