@@ -13,15 +13,15 @@
 
 </div>
 
-# Installation
+## Installation
 
 Click bellow to direct install from figma community
 
 <a href="https://www.figma.com/community/plugin/1009022712992810988/Transpose"><img alt="Install Plugin" src="https://img.shields.io/endpoint?url=https://figma-plugin-badges.vercel.app/api/installs/1009022712992810988" height=24/></a>
 
-# Usage
+## Usage
 
-## 1. Transpose > Each one
+### 1. Transpose > Each one
 
 Select One (1) or more layers and run the plugin.
 
@@ -29,21 +29,20 @@ Select One (1) or more layers and run the plugin.
 
 </br>
 
-## 2. Transpose > Grouped
+### 2. Transpose > Grouped
 
-Text Text Text Text Text Text </br>
-Text Text Text Text Text Text
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies ut nisl vitae molestie. Sed sit amet mauris ac orci faucibus semper. Duis ultrices vitae ligula eget consectetur.
 
 </br>
 
-> ## Tips : Launch plugins actions with custom keyboard
+> #### Tips : Launch plugins actions with custom keyboard
 >
 > For **Mac users** it is possible to associate natively a
 > keyboard shortcut to your figma plugin from settings
 > -learn more in this [youtube videos](https://www.youtube.com/watch?v=r-6q1AJNeTQ) or use
 > [this method](https://www.youtube.com/watch?v=hkbTDbXc5Ng) for **Windows users**.
 
-# Object handled
+## Object handled
 
 - RECTANGLE
 - ELLIPSE
@@ -54,7 +53,7 @@ Text Text Text Text Text Text
 - FRAME
 - COMPONENT/ INSTANCE
 
-# Support
+## Support
 
 Do you find this plugin useful ? </br> please consider to make a donation to support 🙏🏼
 
@@ -63,9 +62,9 @@ Do you find this plugin useful ? </br> please consider to make a donation to sup
 <a href="https://liberapay.com/mrstev3n/"><img alt="Liberapay" src="https://img.shields.io/badge/Liberapay-F6C915?style=flat&logo=liberapay&logoColor=black" height=32></a>
 </p>
 
-# Code
+## Code
 
-## Quick Setup
+### Quick Setup
 
 - Clone the repository.
 - `npm install` installs all the dependencies.
@@ -79,7 +78,7 @@ Contributions are welcomed, feel free to make a pull request or create an issue
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/mrstev3n/Transpose-plugin.svg)](https://GitHub.com/mrstev3n/Transpose-plugin/pull/)
 [![GitHub issues](https://img.shields.io/github/issues/mrstev3n/Transpose-plugin.svg)](https://GitHub.com/mrstev3n/Transpose-plugin/issues/)
 
-# Credits and Thanks
+## Credits and Thanks
 
 V2 - Maker : [@mrstev3n](https://github.com/mrstev3n),
 V2 - Tester : [@rickfaf](https://github.com/rickfaf)
@@ -94,7 +93,7 @@ Big thanks to [@boussarilatif](https://github.com/boussarilatif) & [@rickfaf](ht
 
 </br>
 
-# Other Links
+## Other Links
 
 <p>
 <a href="https://figma.com/@steven"><img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" height=24></a>
