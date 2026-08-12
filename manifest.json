@@ -2,8 +2,27 @@
   "name": "Transpose",
   "id": "1009022712992810988",
   "api": "1.0.0",
-  "main": "code.js",
+  "main": "dist/code.js",
   "editorType": [
-    "figma",
-    "figjam" ]
+    "figma"
+  ],
+  "documentAccess": "dynamic-page",
+  "networkAccess": {
+    "allowedDomains": ["none"]
+  },
+  "parameters": [
+    {
+      "name": "Type",
+      "key": "type",
+      "description": "Choose a type of transpose",
+      "allowFreeform": false
+    },
+    {
+      "name": "Direction",
+      "key": "direction",
+      "description": "Choose the direction for grouped transpose",
+      "allowFreeform": false
+    }
+  ],
+  "parameterOnly": true
 }

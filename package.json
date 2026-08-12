@@ -1,15 +1,24 @@
 {
   "name": "transpose",
   "version": "1.0.0",
-  "description": "(flip layer size, Tranpose)",
-  "main": "code.js",
+  "description": "A headless Figma plugin to transpose layer dimensions.",
+  "main": "dist/code.js",
   "devDependencies": {
-    "@figma-plugin/helpers": "^0.15.2",
-    "@figma/plugin-typings": "^1.45.0",
-    "npm": "^8.9.0"
+    "@eslint/js": "^10.0.1",
+    "@figma/eslint-plugin-figma-plugins": "^1.0.0",
+    "@figma/plugin-typings": "^1.124.0",
+    "@typescript-eslint/eslint-plugin": "^8.58.0",
+    "@typescript-eslint/parser": "^8.58.0",
+    "eslint": "^10.1.0",
+    "typescript": "^6.0.2",
+    "typescript-eslint": "^8.58.0"
   },
   "scripts": {
-    "build": "tsc -p tsconfig.json"
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -p tsconfig.json --watch",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "repository": {
     "type": "git",
@@ -25,13 +34,9 @@
     "portrait"
   ],
   "author": " (Steven H-A)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mrstev3n/Transpose/issues"
   },
-  "homepage": "https://github.com/mrstev3n/Transpose#readme",
-  "dependencies": {
-    "source-map-loader": "^3.0.1",
-    "ts-loader": "^9.3.0"
-  }
+  "homepage": "https://github.com/mrstev3n/Transpose#readme"
 }
