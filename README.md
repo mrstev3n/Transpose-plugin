@@ -23,7 +23,7 @@ Click below to install directly from the Figma community
 
 ### 1. Transpose > Each one
 
-Select one or more layers and run the plugin. Each layer will be resized individually.
+Select one or more layers and run the plugin. Each layer will be transposed individually while keeping its visual center.
 
 !["Layer flip"](assets/banner.gif)
 
@@ -31,7 +31,19 @@ Select one or more layers and run the plugin. Each layer will be resized individ
 
 ### 2. Transpose > Grouped
 
-Select multiple layers and choose this option to resize them as a group. (Feature coming soon)
+Select multiple layers and choose this option to transpose them as a visual group without overlap.
+
+</br>
+
+### 3. Direction > Vertical / Horizontal
+
+For grouped transpose, choose whether the result should be stacked vertically or arranged horizontally.
+
+</br>
+
+## Editor support
+
+Transpose is currently configured for **Figma Design** only. The manifest intentionally does not target FigJam or Dev Mode because the current transform logic is written for design-layer resizing and repositioning.
 
 </br>
 
@@ -69,6 +81,7 @@ Do you find this plugin useful? </br> Please consider making a donation to suppo
 - Clone the repository.
 - `npm install` installs all the dependencies.
 - `npm run build` builds and bundles the plugin.
+- `npm run lint` checks the plugin against ESLint and Figma plugin rules.
 - Import the manifest into Figma and test.
 
 ### Contribution
